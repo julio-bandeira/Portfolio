@@ -1,11 +1,12 @@
 body {
-    background-color: brown;
+    background-color: cornsilk;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
 
 div.contents {
     background-color: cornsilk;
+    box-shadow: 4px 4px 10px gray;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -66,4 +67,24 @@ div#recognition div div img:nth-child(1) {
 
 div#recognition div div img:nth-child(2) {
     width: 35%;
+}
+
+div#informatic div#iconsContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+div#informatic div#iconsContent div {
+    margin: 10px;
+}
+
+div#informatic img {
+    height: 50px;
+}
+
+div#projects div:nth-child(1) img {
+    width: 50%;
 }
