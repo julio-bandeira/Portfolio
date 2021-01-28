@@ -1,0 +1,162 @@
+body {
+    background-color: #171219;
+    margin: 0;
+    padding: 0;
+}
+body header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    background-color: #171219;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-between;
+    color: #FFFCF9;
+    text-shadow: 1px 1px 1px #FFFCF9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body header p {
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+}
+body header ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    padding-right: 20px;
+}
+body header ul li {
+    margin: 0;
+    padding: 10px 10px;
+}
+body header p.t-shadow:hover {
+    transition: 0.5s;
+    text-shadow: -3px 3px 3px #FFFCF9;
+}
+body header ul li.t-shadow:hover {
+    transition: 0.5s;
+    text-shadow: 3px 3px 3px #FFFCF9;
+}
+body section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: #e9e8e7;
+    padding: 0;
+    align-items: center;
+}
+body section img#inspiration {
+    width: 100%;
+    margin-top: -120px;
+    padding: 0;
+}
+body section img#avatar {
+    margin-top: -140px;
+    width: 400px;
+    box-shadow: 4px 4px 4px #171219;
+    border-radius: 200px;
+}
+body section {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 25px;
+}
+body section div#info h1 {
+    padding-right: 10px;
+    text-align: right;
+    font-size: 28px;
+}
+body section div#info p#description{
+    padding: 10px 20px;
+}
+body section div#info div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body section div#info div a {
+    text-decoration: none;
+}
+body section div#academic {
+    margin-top: 20px;
+    background-color: #171219;
+    color: #FFFCF9;
+    width: 100%;
+    padding-bottom: 15px;
+}
+body section div#academic h1 {
+    text-align: center;
+}
+body section div#academic h2 {
+    font-size: 32px;
+}
+body section div#recognitions {
+    padding-bottom: 20px;
+}
+body section div#recognitions h1 {
+    text-align: center;
+}
+body section div#recognitions h2 {
+    font-size: 32px;
+}
+body section div#recognitions p {
+    font-size: 25px;
+}
+body section div#recognitions div#img1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #171219;
+}
+body section div#recognitions div#img2 div {
+    display: flex;
+}
+body section div#recognitions div#img2 div img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #171219;
+    margin-left: auto;
+    margin-right: auto;
+}
+body section div#recognitions div#img3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #171219;
+}
+body section div#informatic {
+    color: #FFFCF9;
+    background-color: #171219;
+    width: 100%;
+}
+body section div#informatic h1 {
+    text-align: center;
+}
+body section div#informatic div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+body section div#informatic div div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+body section div#informatic img {
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
