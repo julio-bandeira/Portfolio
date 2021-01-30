@@ -98,7 +98,10 @@ body section div#academic {
     padding-bottom: 15px;
 }
 body section div#academic div {
-    padding-left: 20px;
+    width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 body section div#academic h1 {
     text-align: center;
@@ -156,11 +159,14 @@ body section div#informatic div {
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 body section div#informatic div div {
     display: flex;
     flex-direction: column;
+    width: 140px;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -217,16 +223,32 @@ body section div#contact {
 body section div#contact h1 {
     text-align: center;
 }
-body section div#contact table {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+body section div#contact div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-body section div#contact table tr th.l {
-    text-align: left;
+body section div#contact div{
+    padding: 10px 40px;
 }
-body section div#contact table tr th.r {
-    text-align: right;
+body section div#contact div div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+body section div#contact img {
+    height: 60px;
+    margin-right: 15px;
+}
+body section div#contact img.invert {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 body section p.indent {
     text-indent: 40px;
