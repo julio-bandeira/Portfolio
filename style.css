@@ -58,6 +58,8 @@ body section {
     background-color: #e9e8e7;
     padding: 0;
     align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 25px;
 }
 body section img#inspiration {
     width: 100%;
@@ -69,10 +71,6 @@ body section img#avatar {
     width: 400px;
     box-shadow: 4px 4px 4px #171219;
     border-radius: 200px;
-}
-body section {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 25px;
 }
 body section div#info h1 {
     padding-right: 10px;
@@ -155,20 +153,22 @@ body section div#informatic h1 {
     text-align: center;
 }
 body section div#informatic div {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body section div#informatic div div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 50px;
 }
-body section div#informatic div div {
+body section div#informatic div div div {
     display: flex;
     flex-direction: column;
     width: 140px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     
 }
